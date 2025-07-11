@@ -13,4 +13,18 @@
         <tag>中国</tag>
       </tags>
   </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2025/07/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h2 id="第一步：开始工作前，先“听”一次"><a href="#第一步：开始工作前，先“听”一次" class="headerlink" title="第一步：开始工作前，先“听”一次"></a>第一步：开始工作前，先“听”一次</h2><ul>
+<li><p>在您准备修改任何东西之前，先运行 <code>pull</code> 命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git pull origin main</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>本地预览</p>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl; hexo s</span><br><span class="line">``````</span><br><span class="line">- 修改后后推送</span><br><span class="line"></span><br><span class="line">```bash</span><br><span class="line">git push origin main</span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
 </search>
