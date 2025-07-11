@@ -1,6 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>[CTT] 基于Cloudflare D1的Telegram双向分组对话机器人（2025.04.03更新）</title>
+    <url>/2025/03/%5BCTT%5D%20%E5%9F%BA%E4%BA%8ECloudflare%20D1%E7%9A%84Telegram%E5%8F%8C%E5%90%91%E5%88%86%E7%BB%84%E5%AF%B9%E8%AF%9D%E6%9C%BA%E5%99%A8%E4%BA%BA%EF%BC%882025.04.03%E6%9B%B4%E6%96%B0%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="CFTeleTrans-CTT-基于-Cloudflare-的-Telegram-消息转发分组对话机器人-本项目地址：CFTeleTrans-欢迎fork-期待star"><a href="#CFTeleTrans-CTT-基于-Cloudflare-的-Telegram-消息转发分组对话机器人-本项目地址：CFTeleTrans-欢迎fork-期待star" class="headerlink" title="CFTeleTrans (CTT) - 基于 Cloudflare 的 Telegram 消息转发分组对话机器人 本项目地址：CFTeleTrans 欢迎fork 期待star"></a>CFTeleTrans (CTT) - 基于 Cloudflare 的 Telegram 消息转发分组对话机器人 本项目地址：<a href="https://github.com/iawooo/ctt">CFTeleTrans</a> 欢迎fork 期待star</h1><h1 id="部署双向机器人的好处：隐私保护，避免封号，任何人能联系你（不受双向限制）"><a href="#部署双向机器人的好处：隐私保护，避免封号，任何人能联系你（不受双向限制）" class="headerlink" title="部署双向机器人的好处：隐私保护，避免封号，任何人能联系你（不受双向限制）"></a>部署双向机器人的好处：隐私保护，避免封号，任何人能联系你（不受双向限制）</h1><h2 id="04-03更新：修复bug，结合反馈添加功能，添加面板，优化响应速度。"><a href="#04-03更新：修复bug，结合反馈添加功能，添加面板，优化响应速度。" class="headerlink" title="04.03更新：修复bug，结合反馈添加功能，添加面板，优化响应速度。"></a>04.03更新：修复bug，结合反馈添加功能，添加面板，优化响应速度。</h2><h2 id="项目截图"><a href="#项目截图" class="headerlink" title="项目截图"></a>项目截图</h2><p>以下是 CFTeleTrans 项目的截图：<br><img src="https://tc-212.pages.dev/1743001600418.png" alt="CFTeleTrans 截图"><br>一款强大、灵活、低成本的 Telegram 机器人解决方案，助你轻松管理消息互动！以下是它的核心亮点：</p>
+<ul>
+<li><strong>完全自部署，掌控在你手中</strong><br>部署在自己的 Cloudflare 账户下，避免被第三方操控或推送流氓广告，安全可靠，隐私无忧。</li>
+<li><strong>分组对话，清晰高效</strong><br>每个给你发消息的人自动分配独立分组，查找记录一目了然，回复无需“@”提及，直接在对应分组操作，省时省力。</li>
+<li><strong>好友式聊天体验，随时畅聊</strong><br>用户发消息就像添加了你的好友，随时随地想聊就聊。即使多人同时发消息，也井然有序，绝不混乱。</li>
+<li><strong>纯 Cloudflare 驱动，零服务器成本</strong><br>完全基于 Cloudflare 平台，利用其免费额度（每天10万次请求）实现高性能运行，无需额外服务器，轻松上手。</li>
+<li><strong>D1 数据库存储，容量无忧</strong><br>使用 Cloudflare D1 存储用户状态和数据，免费额度高达每天10万次读写，远超传统 KV 空间限制，稳定又实用。</li>
+<li><strong>智能防护与管理功能</strong><br>配备高效的用户验证机制、消息频率限制（防止恶意刷消息）以及管理员功能，确保机器人安全稳定运行。</li>
+<li><strong>更多功能，等你探索</strong><br>想了解更多 欢迎访问 GitHub 项目地址：<a href="https://github.com/iawooo/ctt">https://github.com/iawooo/ctt</a>，完整功能一览无余！</li>
+</ul>
+<hr>
+<h1 id="部署教程"><a href="#部署教程" class="headerlink" title="部署教程"></a>部署教程</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol>
+<li><p><strong>创建Telegram Bot</strong>：</p>
+<ul>
+<li>在Telegram中找到 <code>@BotFather</code>，发送 <code>/newbot</code>创建新机器人。</li>
+<li>按照提示设置机器人名称和用户名，获取Bot Token（例如 <code>123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</code>）。</li>
+<li>发送 <code>/setinline</code>切换内联模式。<br><img src="https://tc-212.pages.dev/1742897391924.png" alt="image"></li>
+</ul>
+</li>
+<li><p><strong>创建后台群组</strong>：</p>
+<ul>
+<li>创建一个Telegram群组（按需设置是否公开），</li>
+<li>群组的“话题功能”打开。</li>
+<li>添加机器人为管理员，建议权限全给（消息管理，话题管理）<br><img src="https://tc-212.pages.dev/1742897456559.png" alt="image"></li>
+<li>获取群组的Chat ID（例如 <code>-100123456789</code>），可以通过 <code>@getidsbot</code>获取（拉它进群）。<br><img src="https://tc-212.pages.dev/1742897487893.png" alt="image"></li>
+</ul>
+</li>
+</ol>
+<h2 id="部署到Cloudflare-Workers"><a href="#部署到Cloudflare-Workers" class="headerlink" title="部署到Cloudflare Workers"></a>部署到Cloudflare Workers</h2><h3 id="步骤-1：创建D1-SQL数据库"><a href="#步骤-1：创建D1-SQL数据库" class="headerlink" title="步骤 1：创建D1 SQL数据库"></a>步骤 1：创建D1 SQL数据库</h3><ol>
+<li>登录<a href="https://dash.cloudflare.com/">Cloudflare仪表板</a>。</li>
+<li>导航到 <strong>存储和数据库 &gt; D1 SQL数据库</strong>，输入一个名称（例如 <code>cfteletrans-db</code>），点击 <strong>创建</strong>。<br><img src="https://tc-212.pages.dev/1742897504981.png" alt="image"><br><img src="https://tc-212.pages.dev/1742897530332.png" alt="image"></li>
+</ol>
+<h3 id="步骤-2：创建Workers项目"><a href="#步骤-2：创建Workers项目" class="headerlink" title="步骤 2：创建Workers项目"></a>步骤 2：创建Workers项目</h3><ol>
+<li>登录<a href="https://dash.cloudflare.com/">Cloudflare仪表板</a>。</li>
+<li>导航到 <strong>Workers和Pages &gt; Workers和Pages</strong>，点击 <strong>创建</strong>。<br><img src="https://tc-212.pages.dev/1742897572684.png" alt="image"></li>
+<li>点击 <strong>Hello world</strong>，输入一个名称（例如 <code>cfteletrans</code>），再点击 <strong>部署</strong></li>
+<li>点击 <strong>继续处理项目</strong>，（先填写变量再替换项目代码）</li>
+</ol>
+<h3 id="步骤-3：配置环境变量"><a href="#步骤-3：配置环境变量" class="headerlink" title="步骤 3：配置环境变量"></a>步骤 3：配置环境变量</h3><ol>
+<li>在创建的Workers项目 <strong>设置 &gt; 变量和机密</strong> 中，添加以下变量：</li>
+</ol>
+<ul>
+<li><code>BOT_TOKEN_ENV</code>：您的Telegram Bot Token（例如 <code>123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</code>）。</li>
+<li><code>GROUP_ID_ENV</code>：后台群组的Chat ID（例如 <code>-100123456789</code>）。</li>
+<li><code>MAX_MESSAGES_PER_MINUTE_ENV</code>：消息频率限制（例如 <code>40</code>）。</li>
+</ul>
+<h3 id="步骤-4：绑定D1-SQL数据库"><a href="#步骤-4：绑定D1-SQL数据库" class="headerlink" title="步骤 4：绑定D1 SQL数据库"></a>步骤 4：绑定D1 SQL数据库</h3><ol>
+<li>在创建的Workers项目 <strong>设置 &gt; 绑定</strong> 中，绑定数据库：</li>
+</ol>
+<ul>
+<li>添加-选择D1数据库</li>
+<li>变量名称 <code>D1</code></li>
+<li>D1 数据库 选择刚建的数据库（例如 <code>cfteletrans-db</code>），</li>
+<li>点击 <strong>编辑代码</strong>，把原来的代码用<a href="https://github.com/iawooo/ctt">本项目</a>中的_worker.js代码替换后部署</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>变量名</strong></th>
+<th><strong>类型</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>默认值&#x2F;示例</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>BOT_TOKEN_ENV</code></td>
+<td>环境变量</td>
+<td>Telegram Bot 的 Token，用于与 Telegram API 通信。</td>
+<td><code>your-telegram-bot-token</code></td>
+</tr>
+<tr>
+<td><code>GROUP_ID_ENV</code></td>
+<td>环境变量</td>
+<td>Telegram 群组的 ID，用于消息转发和客服回复。</td>
+<td><code>-123456789</code></td>
+</tr>
+<tr>
+<td><code>MAX_MESSAGES_PER_MINUTE_ENV</code></td>
+<td>环境变量</td>
+<td>每分钟允许的最大消息数，用于限制用户发送频率。</td>
+<td><code>40</code></td>
+</tr>
+<tr>
+<td><code>D1</code></td>
+<td>D1 绑定</td>
+<td>Cloudflare D1 数据库绑定，用于存储用户状态、消息频率和群组映射。</td>
+<td><code>cfteletrans-db</code></td>
+</tr>
+</tbody></table>
+<p><img src="https://tc-212.pages.dev/1742897645328.png" alt="image"></p>
+<h3 id="步骤-5：测试"><a href="#步骤-5：测试" class="headerlink" title="步骤 5：测试"></a>步骤 5：测试</h3><ol>
+<li>在Telegram中找到您的机器人，发送 <code>/start</code>。</li>
+<li>确认收到“你好，欢迎使用私聊机器人！”并触发验证码。</li>
+<li>完成验证，确认收到合并消息，例如：</li>
+<li>发送消息，确认消息转发到后台群组的子论坛。</li>
+</ol>
+<h2 id="部署到Cloudflare-pages（可选）"><a href="#部署到Cloudflare-pages（可选）" class="headerlink" title="部署到Cloudflare pages（可选）"></a>部署到Cloudflare pages（可选）</h2><h3 id="首先fork本项目-！！！"><a href="#首先fork本项目-！！！" class="headerlink" title="**首先fork本项目**！！！"></a>**首先fork<a href="https://github.com/iawooo/ctt">本项目</a>**！！！</h3><h3 id="步骤-1：创建pages项目"><a href="#步骤-1：创建pages项目" class="headerlink" title="步骤 1：创建pages项目"></a>步骤 1：创建pages项目</h3><ol>
+<li>登录<a href="https://dash.cloudflare.com/">Cloudflare仪表板</a>。</li>
+<li>导航到 <strong>Workers和Pages &gt; Workers和Pages</strong>，选择pages，点击 <strong>创建</strong>。</li>
+<li>连接GitHub部署（或者下载本项目zip部署）</li>
+</ol>
+<h3 id="步骤-2：填写变量后重试部署"><a href="#步骤-2：填写变量后重试部署" class="headerlink" title="步骤 2：填写变量后重试部署"></a>步骤 2：填写变量后重试部署</h3><p><img src="https://tc-212.pages.dev/1742897645328.png" alt="image"></p>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><ul>
+<li>本项目首次公测，可能有bug，</li>
+<li>bug和改进建议联系我</li>
+</ul>
+<h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><ul>
+<li>特别感谢 <a href="https://x.ai/">xAI</a> 提供的支持，帮助我完成了本项目的开发和优化</li>
+<li>特别感谢 <a href="https://www.cloudflare.com/">cloud flare</a> 大善人</li>
+</ul>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><ul>
+<li><strong>尊重原创，转载须知</strong><br>如需转载，请务必注明出处，感谢支持！严禁将本项目用于任何违法犯罪行为。</li>
+<li><strong>二次修改与发布</strong><br>欢迎基于本项目进行二次开发，但请在发布时注明原始出处，共同维护开源社区的良好氛围。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>GitHub</category>
+        <category>个人项目</category>
+        <category>telegram</category>
+        <category>cloudflare</category>
+      </categories>
+      <tags>
+        <tag>GitHub</tag>
+        <tag>个人项目</tag>
+        <tag>telegram</tag>
+        <tag>cloudflare</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>你好!新中国！</title>
     <url>/2025/07/%E4%BD%A0%E5%A5%BD!%E4%B8%AD%E5%9B%BD%EF%BC%81/</url>
     <content><![CDATA[<p>我爱你亲爱的祖国！</p>
