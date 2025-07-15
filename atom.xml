@@ -3,11 +3,11 @@
   <title>阿伟博客</title>
   
   <subtitle>分享我的数字世界探索之旅 </subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://irwei.com/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2025-07-13T15:47:15.471Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://irwei.com/"/>
+  <updated>2025-07-15T16:50:26.086Z</updated>
+  <id>https://irwei.com/</id>
   
   <author>
     <name>阿伟</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>你好!新中国！</title>
-    <link href="http://example.com/p/china/"/>
-    <id>http://example.com/p/china/</id>
+    <link href="https://irwei.com/p/china/"/>
+    <id>https://irwei.com/p/china/</id>
     <published>2025-05-19T21:14:00.082Z</published>
-    <updated>2025-07-13T15:47:15.471Z</updated>
+    <updated>2025-07-15T16:50:26.086Z</updated>
     
     <content type="html"><![CDATA[<p>我爱你亲爱的祖国！</p><p><img src="https://tc-212.pages.dev/1743856485768.png" alt="中国"></p>]]></content>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="中国" scheme="http://example.com/categories/%E4%B8%AD%E5%9B%BD/"/>
+    <category term="中国" scheme="https://irwei.com/categories/%E4%B8%AD%E5%9B%BD/"/>
     
     
-    <category term="中国" scheme="http://example.com/tags/%E4%B8%AD%E5%9B%BD/"/>
+    <category term="中国" scheme="https://irwei.com/tags/%E4%B8%AD%E5%9B%BD/"/>
     
   </entry>
   
   <entry>
     <title>[CTT] 基于Cloudflare D1的Telegram双向分组对话机器人（2025.04.03更新）</title>
-    <link href="http://example.com/p/ctt/"/>
-    <id>http://example.com/p/ctt/</id>
+    <link href="https://irwei.com/p/ctt/"/>
+    <id>https://irwei.com/p/ctt/</id>
     <published>2025-03-24T22:44:55.269Z</published>
     <updated>2025-03-24T22:44:55.830Z</updated>
     
@@ -51,29 +51,29 @@
     
     
     
-    <category term="GitHub" scheme="http://example.com/categories/GitHub/"/>
+    <category term="GitHub" scheme="https://irwei.com/categories/GitHub/"/>
     
-    <category term="个人项目" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    <category term="个人项目" scheme="https://irwei.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
     
-    <category term="telegram" scheme="http://example.com/categories/telegram/"/>
+    <category term="telegram" scheme="https://irwei.com/categories/telegram/"/>
     
-    <category term="cloudflare" scheme="http://example.com/categories/cloudflare/"/>
+    <category term="cloudflare" scheme="https://irwei.com/categories/cloudflare/"/>
     
     
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://irwei.com/tags/GitHub/"/>
     
-    <category term="个人项目" scheme="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    <category term="个人项目" scheme="https://irwei.com/tags/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
     
-    <category term="telegram" scheme="http://example.com/tags/telegram/"/>
+    <category term="telegram" scheme="https://irwei.com/tags/telegram/"/>
     
-    <category term="cloudflare" scheme="http://example.com/tags/cloudflare/"/>
+    <category term="cloudflare" scheme="https://irwei.com/tags/cloudflare/"/>
     
   </entry>
   
   <entry>
     <title>测试</title>
-    <link href="http://example.com/p/test/"/>
-    <id>http://example.com/p/test/</id>
+    <link href="https://irwei.com/p/test/"/>
+    <id>https://irwei.com/p/test/</id>
     <published>2025-01-01T07:29:06.502Z</published>
     <updated>2025-01-01T07:29:06.987Z</updated>
     
