@@ -6,7 +6,7 @@
   <link href="https://irwei.com/atom.xml" rel="self"/>
   
   <link href="https://irwei.com/"/>
-  <updated>2025-07-17T15:16:54.902Z</updated>
+  <updated>2025-07-17T15:21:23.651Z</updated>
   <id>https://irwei.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://irwei.com/p/china/"/>
     <id>https://irwei.com/p/china/</id>
     <published>2025-05-19T21:14:00.082Z</published>
-    <updated>2025-07-17T15:16:54.902Z</updated>
+    <updated>2025-07-17T15:21:23.651Z</updated>
     
     <content type="html"><![CDATA[<p>我爱你亲爱的祖国！</p><p><img src="https://tc-212.pages.dev/1743856485768.png" alt="中国"></p>]]></content>
     
@@ -34,6 +34,45 @@
     
     
     <category term="中国" scheme="https://irwei.com/tags/%E4%B8%AD%E5%9B%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BookNav - 轻量级导航类似OneNav，避免免费虚拟主机吃灰</title>
+    <link href="https://irwei.com/p/BookNav/"/>
+    <id>https://irwei.com/p/BookNav/</id>
+    <published>2025-04-25T07:16:59.007Z</published>
+    <updated>2025-04-25T07:16:59.779Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="BookNav-网页收藏夹，随时随地访问"><a href="#BookNav-网页收藏夹，随时随地访问" class="headerlink" title="BookNav - 网页收藏夹，随时随地访问"></a>BookNav - 网页收藏夹，随时随地访问</h1><hr><h2 id="🔗-项目地址-BookNav"><a href="#🔗-项目地址-BookNav" class="headerlink" title="🔗 项目地址: BookNav"></a>🔗 <strong>项目地址</strong>: <a href="https://github.com/iawooo/BookNav">BookNav</a></h2><h1 id="项目截图"><a href="#项目截图" class="headerlink" title="项目截图"></a>项目截图</h1><p><img src="https://tc-212.pages.dev/1744458795826.png" alt="BookNav"></p><h1 id="项目演示站-https-cc-ct8-pl-密码：admin）（数据库设置了只读）"><a href="#项目演示站-https-cc-ct8-pl-密码：admin）（数据库设置了只读）" class="headerlink" title="项目演示站 https://cc.ct8.pl/  密码：admin）（数据库设置了只读）"></a>项目演示站 <a href="https://cc.ct8.pl/">https://cc.ct8.pl/</a>  密码：admin）（数据库设置了只读）</h1><h2 id="✨-前言：为什么选择-BookNav？"><a href="#✨-前言：为什么选择-BookNav？" class="headerlink" title="✨ 前言：为什么选择 BookNav？"></a>✨ 前言：为什么选择 BookNav？</h2><p>市面上虽有许多免费虚拟主机，但它们往往伴随着各种限制：空间不足、数据库受限、带宽瓶颈、点击量上限，甚至强制插入广告。如果您想部署个人网站或博客，稍有流量便可能不堪重负。这时，部署一个轻量级的导航工具作为您的网页收藏夹，不仅能满足日常需求，还能让虚拟主机“物尽其用”，一劳永逸！</p><p>许多免费虚拟主机以稳定性著称，例如：</p><ul><li>🌐 <a href="https://www.freehostia.com/">Freehostia</a>（据称已稳定运行超20年）</li><li>🌐 <a href="https://www.infinityfree.com/">InfinityFree</a>（稳定运营十余年）</li><li>🌐 serv00和ct8<br>BookNav 完美适配这些平台，部署后即可作为您的私人收藏夹，免去频繁维护的烦恼。当然，您也可以选择 Vercel 部署，或者将其打造为一个开放式导航站——简单灵活，支持 VPS，满足多样化需求。</li></ul><hr><h2 id="🚀-部署教程：三步打造您的专属收藏夹"><a href="#🚀-部署教程：三步打造您的专属收藏夹" class="headerlink" title="🚀 部署教程：三步打造您的专属收藏夹"></a>🚀 部署教程：三步打造您的专属收藏夹</h2><h3 id="1-下载源代码"><a href="#1-下载源代码" class="headerlink" title="1. 下载源代码"></a>1. 下载源代码</h3><p>从 <a href="https://github.com/iawooo/BookNav">GitHub 项目地址</a> 下载 BookNav 的最新源代码。</p><h3 id="2-上传到虚拟主机"><a href="#2-上传到虚拟主机" class="headerlink" title="2. 上传到虚拟主机"></a>2. 上传到虚拟主机</h3><p>文件结构一览：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">public_html/</span><br><span class="line">  ├── add.php              # 添加书签的入口</span><br><span class="line">  ├── backup.php           # 备份与恢复功能</span><br><span class="line">  ├── config.php           # 核心配置文件</span><br><span class="line">  ├── delete.php           # 删除书签脚本</span><br><span class="line">  ├── delete_category.php  # 删除分类脚本</span><br><span class="line">  ├── edit.php             # 编辑书签页面</span><br><span class="line">  ├── edit_category.php    # 编辑分类页面</span><br><span class="line">  ├── index.php            # 主页入口</span><br><span class="line">  ├── install.php          # 一键安装页面</span><br><span class="line">  ├── login.php            # 登录页面</span><br><span class="line">  ├── script.js            # 前端交互（拖拽、樱花特效等）</span><br><span class="line">  ├── style.css            # 样式文件</span><br><span class="line">  ├── images/              # 默认图标与 favicon</span><br><span class="line">  │   ├── default-bookmark.png</span><br><span class="line">  │   └── favicon.ico</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><ol start="2"><li>上传：<ul><li>使用 FTP 工具（如 FileZilla）将整个文件夹上传到虚拟主机的 public_html 或指定目录。</li><li>例如，上传到 &#x2F;public_html&#x2F;</li></ul></li></ol><h3 id="3-访问站点"><a href="#3-访问站点" class="headerlink" title="3. 访问站点"></a>3. 访问站点</h3><ul><li>在浏览器中访问：<br><a href="http://yourdomain.com/">http://yourdomain.com/</a></li><li>填写配置数据库信息，绑定数据库</li><li>点击“安装”，系统会自动创建 config.inc.php 和 bookmarks 表。</li><li>登录后即可开始添加和管理书签！</li><li></li></ul><h2 id="亮点"><a href="#亮点" class="headerlink" title="亮点"></a>亮点</h2><ul><li><strong>超轻量级</strong>：源代码不到 100KB，占用空间小，加载快。</li><li><strong>简单部署</strong>：只需 PHP 和 MySQL，无需额外依赖，虚拟主机即可运行。</li><li><strong>灵感来源 OneNav</strong>：继承了 OneNav 的简洁设计，同时优化了功能和用户体验。</li><li><strong>高级图标抓取</strong>：自动从网页提取最佳图标（支持 <code>favicon.ico</code>、HTML 链接、Manifest 等）。</li><li><strong>书签管理</strong>：添加、编辑、删除书签，支持名称、URL、分类、图标和备注。</li><li><strong>拖拽排序</strong>：支持多级分类，分类权重可调，拖拽调整书签顺序。</li><li><strong>明暗主题</strong>：内置炫酷的渐变背景，支持一键切换明暗模式。</li><li><strong>樱花特效</strong>：动态樱花飘落效果，提升视觉体验。</li><li><strong>备份与恢复</strong>：导出书签数据为 JSON 文件，或从备份文件导入，支持清空现有数据。</li><li><strong>密码保护</strong>：简单登录机制，确保书签隐私。</li><li><strong>响应式设计</strong>：适配桌面和移动端，随时随地管理书签。</li><li><strong>搜索功能</strong>：快速搜索书签名称、URL、分类或备注。</li></ul><h2 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h2><ol><li><p><strong>书签管理</strong>：</p><ul><li>添加、编辑、删除书签。</li><li>支持分类管理（新建、修改、删除分类）。</li><li>可添加备注，方便记录额外信息。</li><li>权重调整，实时保存，多端访问</li></ul></li><li><p><strong>图标自动抓取</strong>：</p><ul><li>优先检查默认 <code>favicon.ico</code>。</li><li>解析 HTML 中的 <code>&lt;link&gt;</code> 标签（如 <code>rel=&quot;icon&quot;</code> 或 <code>apple-touch-icon</code>）。</li><li>支持 Web App Manifest 和 Microsoft <code>browserconfig.xml</code>。</li><li>使用 CORS 代理（如 <code>api.allorigins.win</code>）确保跨域抓取成功。</li><li>回退到 Google FaviconV2 服务。</li></ul></li><li><p><strong>用户体验</strong>：</p><ul><li>拖拽排序书签，实时保存顺序。</li><li>右键或长按书签显示编辑&#x2F;删除选项。</li><li>动态调整书签文本大小，确保显示完整。</li></ul></li><li><p><strong>视觉设计</strong>：</p><ul><li>渐变背景（明暗主题可选）。</li><li>半透明容器和阴影效果。</li><li>樱花飘落动画，提升趣味性。</li></ul></li><li><p><strong>备份与恢复</strong>：</p><ul><li>一键将所有书签和分类数据导出为 JSON 文件，文件名包含日期（如 bookmarks_backup_2025-03-19.json）。</li><li>上传 JSON 文件恢复数据，可选择清空现有数据后再导入。</li></ul></li><li><p><strong>密码保护</strong>：</p><ul><li>可选密码：安装时可设置网站访问密码，留空则无需密码。</li><li>安全登录：使用 Session 和安全的 Cookie（HttpOnly）管理登录状态，30 天有效。</li><li>自动登录：若未设置密码，系统默认允许直接访问。</li></ul></li></ol><h2 id="🌸-让收藏更美好"><a href="#🌸-让收藏更美好" class="headerlink" title="🌸 让收藏更美好"></a>🌸 让收藏更美好</h2><p>BookNav 不仅仅是一个工具，更是一种体验。无论是作为私人收藏夹，还是开放式导航站，它都能为您带来高效、优雅的管理方式。现在就试试 BookNav，让您的网页收藏之旅更加精彩！</p>]]></content>
+    
+    
+    <summary type="html">让虚拟主机“物尽其用”，一劳永逸！防止吃灰。</summary>
+    
+    
+    
+    <category term="GitHub" scheme="https://irwei.com/categories/GitHub/"/>
+    
+    <category term="个人项目" scheme="https://irwei.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="telegram" scheme="https://irwei.com/categories/telegram/"/>
+    
+    <category term="cloudflare" scheme="https://irwei.com/categories/cloudflare/"/>
+    
+    
+    <category term="GitHub" scheme="https://irwei.com/tags/GitHub/"/>
+    
+    <category term="个人项目" scheme="https://irwei.com/tags/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="telegram" scheme="https://irwei.com/tags/telegram/"/>
+    
+    <category term="cloudflare" scheme="https://irwei.com/tags/cloudflare/"/>
+    
+    <category term="BookNav" scheme="https://irwei.com/tags/BookNav/"/>
+    
+    <category term="书签导航" scheme="https://irwei.com/tags/%E4%B9%A6%E7%AD%BE%E5%AF%BC%E8%88%AA/"/>
+    
+    <category term="导航站" scheme="https://irwei.com/tags/%E5%AF%BC%E8%88%AA%E7%AB%99/"/>
     
   </entry>
   

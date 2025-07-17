@@ -1,13 +1,14 @@
-https://irwei.com/p/china/
-https://irwei.com/about/
-https://irwei.com/equipment/
 https://irwei.com/essay/
 https://irwei.com/links/
 https://irwei.com/message/
 https://irwei.com/music/
 https://irwei.com/recentcomments/
 https://irwei.com/tlinks/
+https://irwei.com/p/china/
+https://irwei.com/about/
+https://irwei.com/equipment/
 https://irwei.com/p/cftc/
+https://irwei.com/p/BookNav/
 https://irwei.com/p/ctt/
 https://irwei.com/p/test/
 https://irwei.com/
@@ -15,6 +16,9 @@ https://irwei.com/tags/GitHub/
 https://irwei.com/tags/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/
 https://irwei.com/tags/telegram/
 https://irwei.com/tags/cloudflare/
+https://irwei.com/tags/BookNav/
+https://irwei.com/tags/%E4%B9%A6%E7%AD%BE%E5%AF%BC%E8%88%AA/
+https://irwei.com/tags/%E5%AF%BC%E8%88%AA%E7%AB%99/
 https://irwei.com/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/
 https://irwei.com/tags/%E5%9B%BE%E5%BA%8A/
 https://irwei.com/tags/%E4%B8%AD%E5%9B%BD/
