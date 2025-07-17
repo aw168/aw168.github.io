@@ -6,7 +6,7 @@
   <link href="https://irwei.com/atom.xml" rel="self"/>
   
   <link href="https://irwei.com/"/>
-  <updated>2025-07-16T12:38:20.961Z</updated>
+  <updated>2025-07-17T15:16:26.323Z</updated>
   <id>https://irwei.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://irwei.com/p/china/"/>
     <id>https://irwei.com/p/china/</id>
     <published>2025-05-19T21:14:00.082Z</published>
-    <updated>2025-07-16T12:38:20.961Z</updated>
+    <updated>2025-07-17T15:16:26.323Z</updated>
     
     <content type="html"><![CDATA[<p>我爱你亲爱的祖国！</p><p><img src="https://tc-212.pages.dev/1743856485768.png" alt="中国"></p>]]></content>
     
@@ -34,6 +34,45 @@
     
     
     <category term="中国" scheme="https://irwei.com/tags/%E4%B8%AD%E5%9B%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[cftc]-基于cloudflare图床,支持tg机器人面板和网页管理,上传,自定义后缀等</title>
+    <link href="https://irwei.com/p/cftc/"/>
+    <id>https://irwei.com/p/cftc/</id>
+    <published>2025-04-16T07:05:45.403Z</published>
+    <updated>2025-04-16T07:05:48.583Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="cftc-支持telegram机器人管理和网页管理文件（包括上传，删除，分类，修改后缀等功能）"><a href="#cftc-支持telegram机器人管理和网页管理文件（包括上传，删除，分类，修改后缀等功能）" class="headerlink" title="cftc 支持telegram机器人管理和网页管理文件（包括上传，删除，分类，修改后缀等功能）"></a><a href="https://github.com/iawooo/cftc/">cftc</a> 支持telegram机器人管理和网页管理文件（包括上传，删除，分类，修改后缀等功能）</h1><h2 id="cftc-支持R2-telegram存储，多多star后期可能会跟进B2-S3等存储"><a href="#cftc-支持R2-telegram存储，多多star后期可能会跟进B2-S3等存储" class="headerlink" title="cftc 支持R2 telegram存储，多多star后期可能会跟进B2 S3等存储"></a><a href="https://github.com/iawooo/cftc/">cftc</a> 支持R2 telegram存储，多多star后期可能会跟进B2 S3等存储</h2><h1 id="项目地址：https-github-com-iawooo-cftc-感谢你们的star助力孩子圆梦论坛鸡"><a href="#项目地址：https-github-com-iawooo-cftc-感谢你们的star助力孩子圆梦论坛鸡" class="headerlink" title="项目地址：https://github.com/iawooo/cftc/ 感谢你们的star助力孩子圆梦论坛鸡"></a>项目地址：<a href="https://github.com/iawooo/cftc/">https://github.com/iawooo/cftc/</a> 感谢你们的star助力孩子圆梦论坛鸡</h1><h2 id="📸-截图"><a href="#📸-截图" class="headerlink" title="📸 截图"></a>📸 截图</h2><table><thead><tr><th>Telegram 交互</th><th>网页管理</th></tr></thead><tbody><tr><td><img src="https://awtc.pages.dev/bot.png" alt="Telegram 交互"></td><td><img src="https://awtc.pages.dev/web.png" alt="网页管理"></td></tr></tbody></table><h2 id="✨-核心特性"><a href="#✨-核心特性" class="headerlink" title="✨ 核心特性"></a>✨ 核心特性</h2><ul><li><p><strong>与 <a href="https://github.com/iawooo/ctt">CTT</a> 项目协同，实现一举两得</strong></p><ul><li><strong>提升整体效率</strong>：与  <a href="https://github.com/iawooo/ctt">CTT</a>  项目无缝协作，共享 Telegram 生态的优势。群组中用户既能享受 CTT 的消息转发功能，又能把群组当存储，最大化 Telegram 群组的价值。（不能共用一个机器人）</li></ul></li><li><p><strong>Telegram 机器人驱动的智能管理</strong></p><ul><li><strong>随时随地操作</strong>：内置 Telegram 机器人提供直观的菜单面板，支持上传、修改后缀、管理和分类文件等功能。用户通过简单按钮即可完成复杂操作，无需专业技能，管理文件如同聊天般轻松。</li></ul></li><li><p><strong>永久直链的革命性体验</strong></p><ul><li><strong>提升用户体验</strong>：通过先删除旧文件、上传新文件并修改直链后缀为旧后缀。用户可以在不更改链接的情况下频繁更新文件内容（如替换照片或文档），特别适合博客、电商或需要稳定链接的场景。</li></ul></li><li><p><strong>Cloudflare workers&#x2F;pages部署</strong></p><ul><li><strong>快速上手</strong>：代码简单，部署代码，填写变量便能使用。</li><li><strong>免费永久稳定的图床服务</strong>  Cloudflare 的业界领先稳定性，一旦部署，文件托管长期可靠，无需担心服务中断或数据丢失，一劳永逸，节省维护精力。</li></ul></li><li><p><strong>Cloudflare D1 数据库</strong></p><ul><li><strong>高效存储</strong>：使用Cloudflare D1这个根本用不完的数据库存储用户设置和文件元数据，避免用kv这个少得可怜还造成动不动扣费的现象。</li></ul></li><li><p><strong>利用 Telegram 群组的无限免费存储</strong></p><ul><li><strong>零成本存储</strong>：利用 Telegram 群组作为免费存储后端，空间近乎无限，成本为零。用户无需额外付费即可托管图片、视频和文档，轻松实现高性价比的图床。</li></ul></li><li><p><strong>灵活的双存储模式</strong></p><ul><li><strong>灵活适配，覆盖广泛</strong>：支持 Telegram 存储和 Cloudflare R2 存储两种模式，用户可根据需求自由切换。Telegram 模式适合轻量文件，R2 模式支持大文件和高性能，满足从个人分享到企业托管的多种场景。</li></ul></li><li><p><strong>动态直链后缀修改</strong></p><ul><li><strong>直链可复用</strong>：cftc 允许用户随时修改文件直链的后缀，无需更改文件内容即可生成新链接。改变了传统图床“修改内容必须更换直链”的限制，实现动态化管理。</li></ul></li></ul><h2 id="部署教程"><a href="#部署教程" class="headerlink" title="部署教程"></a>部署教程</h2><p>大佬部署可以直接看变量表</p><h4 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h4><p><strong>创建Telegram Bot</strong>（获取<code>TG_BOT_TOKEN</code>变量）：</p><ul><li>在Telegram中找到<code>@BotFather</code>，发送<code>/newbot</code>创建新机器人。</li><li>按照提示设置机器人名称和用户名，获取Bot Token（例如<code>123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</code>）。<br><strong>创建后台群组</strong>（获取<code>TG_STORAGE_CHAT_ID</code>变量）：<br><strong>可与<a href="https://github.com/iawooo/ctt">CTT</a> 项目共用群组如果部署过<a href="https://github.com/iawooo/ctt">CTT</a> 项目，此步骤省略</strong></li><li>创建一个Telegram群组（按需设置是否公开），</li><li>添加机器人为管理员。</li><li>获取群组的Chat ID（例如<code>-100123456789</code>），可以通过<code>@getidsbot</code>获取（拉它进群）。<br><img src="https://awtc.pages.dev/1.png" alt="step 1"><br><img src="https://awtc.pages.dev/2.png" alt="step 2"></li></ul><h4 id="创建D1-SQL数据库（获取DATABASE变量）"><a href="#创建D1-SQL数据库（获取DATABASE变量）" class="headerlink" title="创建D1 SQL数据库（获取DATABASE变量）"></a>创建D1 SQL数据库（获取<code>DATABASE</code>变量）</h4><ol><li>登录<a href="https://dash.cloudflare.com/">Cloudflare仪表板</a>。</li><li>导航到 <strong>存储和数据库 &gt; D1 SQL数据库</strong>，输入一个名称（例如<code>cftc</code>），点击 <strong>创建</strong>。<br><img src="https://awtc.pages.dev/3.png" alt="step 3"><br><img src="https://awtc.pages.dev/4.png" alt="step 4"></li></ol><h4 id="创建R2存储桶（获取BUCKET变量）"><a href="#创建R2存储桶（获取BUCKET变量）" class="headerlink" title="创建R2存储桶（获取BUCKET变量）&lt;可选&gt;"></a>创建R2存储桶（获取<code>BUCKET</code>变量）&lt;可选&gt;</h4><ul><li>绑卡后，创建创建一个存储桶</li></ul><h3 id="部署到Cloudflare-pages-推荐：pages-dev域名中国也能访问"><a href="#部署到Cloudflare-pages-推荐：pages-dev域名中国也能访问" class="headerlink" title="部署到Cloudflare pages (推荐：pages.dev域名中国也能访问)"></a>部署到Cloudflare pages (推荐：pages.dev域名中国也能访问)</h3><h3 id="点个star，frok本项目"><a href="#点个star，frok本项目" class="headerlink" title="点个star，frok本项目*"></a><em>点个star，frok<a href="https://github.com/iawooo/cftc/">本项目</a></em>*</h3><h4 id="创建pages项目"><a href="#创建pages项目" class="headerlink" title="创建pages项目"></a>创建pages项目</h4><ol><li>登录<a href="https://dash.cloudflare.com/">Cloudflare仪表板</a>。</li><li>导航到 <strong>Workers和Pages &gt; Workers和Pages</strong>，点击 <strong>创建</strong>。<br><img src="https://awtc.pages.dev/5.png" alt="step 5"></li><li>点击 <strong>Pages</strong>，再点击 <strong>连接到Git</strong><br><img src="https://awtc.pages.dev/6.png" alt="step 6"></li><li>选择 <strong>cftc</strong> 存储库，点击<strong>开始设置</strong>，输入项目名称（例如<code>cftc</code>）<br><img src="https://awtc.pages.dev/7.png" alt="step 7"><br><img src="https://awtc.pages.dev/8.png" alt="step 8"></li><li>点击 <strong>保存并部署</strong>，等待20秒左右，点击 <strong>继续处理项目</strong></li><li>点击<strong>设置</strong>，根据<strong>变量表</strong>添加或绑定变量，确保变量正确。<br><img src="https://awtc.pages.dev/9.png" alt="step 9"><br>以下是项目中需要在 Cloudflare 环境中绑定的变量及其说明：<ul><li><strong><code>TG_STORAGE_CHAT_ID</code>说明：如果你部署过<a href="https://github.com/iawooo/ctt">CTT</a> 项目则<code>TG_STORAGE_CHAT_ID</code>可与<a href="https://github.com/iawooo/ctt">CTT</a> 项目中的<code>GROUP_ID_ENV</code>相同，有且只有群组id变量能相同，共用群组，不影响<a href="https://github.com/iawooo/ctt">CTT</a> 项目的双向机器人。</strong></li><li><strong><code>DOMAIN</code>说明：推荐填写cloud flare给你项目的域名如：<code>yourdomain.pages.dev</code>这样的图床直链做到“人走图还在”（cf不倒闭）</strong></li></ul></li></ol><table><thead><tr><th><strong>变量名</strong></th><th><strong>类型</strong></th><th><strong>描述</strong></th><th><strong>默认值&#x2F;示例</strong></th></tr></thead><tbody><tr><td><code>DATABASE</code></td><td>D1 绑定</td><td><strong>(必需)</strong> Cloudflare D1 数据库绑定名称，用于存储文件元数据、用户设置和分类信息。</td><td><code>cftc-db</code></td></tr><tr><td><code>DOMAIN</code></td><td>环境变量</td><td><strong>(必需)</strong> Cloudflare Workers&#x2F;pages 部署域名，用于生成文件直链和设置 Telegram Webhook。</td><td><code>yourdomain.workers/pages.dev</code></td></tr><tr><td><code>TG_BOT_TOKEN</code></td><td>环境变量</td><td><strong>(必需)</strong> Telegram 机器人 Token，用于与 Telegram API 通信以处理文件上传和交互。</td><td><code>123456:ABC-DEF1234ghIkl</code></td></tr><tr><td><code>TG_STORAGE_CHAT_ID</code></td><td>环境变量</td><td><strong>(必需，如果使用 Telegram 存储)</strong> 用于存储文件的 Telegram 群组或频道 ID。</td><td><code>-100123456789</code></td></tr><tr><td><code>USERNAME</code></td><td>环境变量</td><td><strong>(必需，如果 <code>ENABLE_AUTH</code> 为 <code>true</code>)</strong> 管理面板的登录用户名。</td><td><code>admin</code></td></tr><tr><td><code>PASSWORD</code></td><td>环境变量</td><td><strong>(必需，如果 <code>ENABLE_AUTH</code> 为 <code>true</code>)</strong> 管理面板的登录密码。</td><td><code>your_secure_password</code></td></tr><tr><td><code>MAX_SIZE_MB</code></td><td>环境变量</td><td><strong>(可选)</strong> 单个文件的最大大小限制（单位 MB），防止上传过大文件。</td><td><code>20</code></td></tr><tr><td><code>BUCKET</code></td><td>R2 绑定</td><td><strong>(可选)</strong> Cloudflare R2 存储桶绑定名称，用于 R2 存储模式（若启用）。</td><td><code>cftc-bucket</code></td></tr><tr><td><code>COOKIE</code></td><td>环境变量</td><td><strong>(可选)</strong> 网页认证 Cookie 的有效期（单位天），控制登录会话时长。</td><td><code>7</code></td></tr><tr><td><code>TG_CHAT_ID</code></td><td>环境变量</td><td><strong>(可选)</strong> 允许使用机器人的 Telegram 用户（英文逗号分隔），限制访问权限。</td><td><code>123456789,987654321</code></td></tr><tr><td><code>ENABLE_AUTH</code></td><td>环境变量</td><td><strong>(可选)</strong> 是否启用网页管理界面的用户名&#x2F;密码认证（<code>true</code> 或 <code>false</code>）。</td><td><code>true</code></td></tr></tbody></table><ol start="7"><li>点击<strong>部署</strong>，找到<strong>重试部署</strong>，点击<strong>重试部署</strong><br><img src="https://awtc.pages.dev/10.png" alt="step 10"></li></ol><h3 id="部署到Cloudflare-Workers-（替换代码填变量）"><a href="#部署到Cloudflare-Workers-（替换代码填变量）" class="headerlink" title="部署到Cloudflare Workers （替换代码填变量）"></a>部署到Cloudflare Workers （替换代码填变量）</h3><p>这里不做说明详细请移步<a href="https://github.com/iawooo/cftc">https://github.com/iawooo/cftc</a></p><h2 id="🛠️-使用说明"><a href="#🛠️-使用说明" class="headerlink" title="🛠️ 使用说明"></a>🛠️ 使用说明</h2><ul><li><strong>网页界面</strong>:<ul><li>访问 Worker&#x2F;pages 的 URL (例如 <code>https://cftc.workers/pages.dev/</code> 或你的自定义域名)。</li><li><code>https://cftc.workers/pages.dev/admin</code>: 文件管理后台，可查看、搜索、筛选、分享、删除文件和管理分类。</li></ul></li><li><strong>Telegram Bot</strong>:<ul><li>私聊你的 Bot 发送 <code>/start</code> 开始交互。</li><li>直接发送图片、视频、文档等文件给 Bot 进行上传。</li><li>使用 Bot 提供的内联键盘按钮进行各种操作（切换存储、管理分类、查看文件、修改后缀、删除文件等）。</li><li>按照 Bot 的提示回复消息以完成特定操作（如输入新分类名称、要删除的文件名、新后缀等）。</li></ul></li></ul><h2 id="🤝-贡献"><a href="#🤝-贡献" class="headerlink" title="🤝 贡献"></a>🤝 贡献</h2><h3 id="欢迎到GitHub提交-Issue-或-Pull-Request！如果您有任何改进建议或新功能需求，请随时联系我。"><a href="#欢迎到GitHub提交-Issue-或-Pull-Request！如果您有任何改进建议或新功能需求，请随时联系我。" class="headerlink" title="欢迎到GitHub提交 Issue 或 Pull Request！如果您有任何改进建议或新功能需求，请随时联系我。"></a>欢迎到<a href="https://github.com/iawooo/cftc">GitHub</a>提交 Issue 或 Pull Request！如果您有任何改进建议或新功能需求，请随时联系我。</h3><h2 id="🌟-致谢"><a href="#🌟-致谢" class="headerlink" title="🌟 致谢"></a>🌟 致谢</h2><h3 id="感谢所有测试者、贡献者和社区支持！"><a href="#感谢所有测试者、贡献者和社区支持！" class="headerlink" title="感谢所有测试者、贡献者和社区支持！"></a>感谢所有测试者、贡献者和社区支持！</h3><h3 id="cloud-flare-提供强大的基础设施支持。"><a href="#cloud-flare-提供强大的基础设施支持。" class="headerlink" title="cloud flare - 提供强大的基础设施支持。"></a><a href="https://www.cloudflare.com/">cloud flare</a> - 提供强大的基础设施支持。</h3><h3 id="telegram-便捷的-Bot-API。"><a href="#telegram-便捷的-Bot-API。" class="headerlink" title="telegram - 便捷的 Bot API。"></a><a href="https://telegram.org/">telegram</a> - 便捷的 Bot API。</h3><h3 id="感谢-xAI-claude-帮助我完成了本项目的开发和优化"><a href="#感谢-xAI-claude-帮助我完成了本项目的开发和优化" class="headerlink" title="感谢 xAI   claude 帮助我完成了本项目的开发和优化"></a>感谢 <a href="https://x.ai/">xAI</a>   <a href="https://claude.ai/">claude</a> 帮助我完成了本项目的开发和优化</h3><h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><ul><li><strong>尊重原创，转载须知</strong><br>如需转载，请务必注明出处，感谢支持！严禁将本项目用于任何违法犯罪行为。</li><li><strong>二次修改与发布</strong><br>欢迎基于本项目进行二次开发，但请在发布时注明原始出处，共同维护开源社区的良好氛围。</li></ul>]]></content>
+    
+    
+    <summary type="html">阿伟,阿伟,阿伟博客,阿伟个人,阿伟主页,cf,cloudflare,tg,telegram,私聊,机器人,tg双向机器人,</summary>
+    
+    
+    
+    <category term="GitHub" scheme="https://irwei.com/categories/GitHub/"/>
+    
+    <category term="个人项目" scheme="https://irwei.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="telegram" scheme="https://irwei.com/categories/telegram/"/>
+    
+    <category term="图床搭建" scheme="https://irwei.com/categories/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="cloudflare" scheme="https://irwei.com/categories/cloudflare/"/>
+    
+    
+    <category term="GitHub" scheme="https://irwei.com/tags/GitHub/"/>
+    
+    <category term="个人项目" scheme="https://irwei.com/tags/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="telegram" scheme="https://irwei.com/tags/telegram/"/>
+    
+    <category term="cloudflare" scheme="https://irwei.com/tags/cloudflare/"/>
+    
+    <category term="图床搭建" scheme="https://irwei.com/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="图床" scheme="https://irwei.com/tags/%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
