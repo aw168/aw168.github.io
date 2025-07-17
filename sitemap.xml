@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://irwei.com/p/china/</loc>
+    
+    <lastmod>2025-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://irwei.com/about/</loc>
     
     <lastmod>2025-07-17</lastmod>
@@ -74,18 +83,9 @@
   </url>
   
   <url>
-    <loc>https://irwei.com/p/china/</loc>
-    
-    <lastmod>2025-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://irwei.com/p/cftc/</loc>
     
-    <lastmod>2025-04-16</lastmod>
+    <lastmod>2025-07-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
