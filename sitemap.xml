@@ -2,42 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://irwei.com/essay/</loc>
-    
-    <lastmod>2025-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://irwei.com/links/</loc>
-    
-    <lastmod>2025-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://irwei.com/message/</loc>
-    
-    <lastmod>2025-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://irwei.com/music/</loc>
-    
-    <lastmod>2025-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://irwei.com/recentcomments/</loc>
     
     <lastmod>2025-07-17</lastmod>
@@ -75,6 +39,42 @@
   
   <url>
     <loc>https://irwei.com/equipment/</loc>
+    
+    <lastmod>2025-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://irwei.com/essay/</loc>
+    
+    <lastmod>2025-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://irwei.com/links/</loc>
+    
+    <lastmod>2025-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://irwei.com/message/</loc>
+    
+    <lastmod>2025-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://irwei.com/music/</loc>
     
     <lastmod>2025-07-17</lastmod>
     
